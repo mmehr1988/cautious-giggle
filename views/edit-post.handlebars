@@ -1,0 +1,23 @@
+<article>
+  <div class='col-md-12'>
+    <div class='row'>
+      <ul class='list-unstyled'>
+        <h3>Edit Post</h3>
+        <!-- Note Title -->
+        <div class='mb-2'>
+          <input type='email' id='note-title' class='note-title form-control' placeholder='Post Title' maxlength='28' class='input' name='post-title' type='text' value='{{post.title}}' />
+        </div>
+        <!-- Note Content -->
+        <div class='mb-0'>
+          <textarea id='note-content' class='note-textarea form-control' rows='10' placeholder='Post Content'>{{post.post_content}}</textarea>
+        </div>
+      </ul>
+      <div>
+        <button type='button' id='save-post-button' class='btn btn-primary btn-lg'>Save</button>
+        <button type='button' id='delete-post-button' class='btn btn-danger btn-lg'>Delete</button>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script src='/javascript/editPost.js'></script>

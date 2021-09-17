@@ -1,0 +1,88 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  font-family: 'Kaisei Tokumin', serif;
+}
+
+/* HEADERS ------------------------------------------------------------------------- */
+
+h1 {
+  font-family: 'Kaisei Tokumin', serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Post Title Size ------------------------------------------------------------------------- */
+
+.display-4 {
+  font-size: 1.8rem !important;
+}
+
+.display-5 {
+  font-size: 1.4rem !important;
+}
+
+.display-6 {
+  font-size: 1rem !important;
+}
+
+/* Home Page ------------------------------------------------------------------------- */
+
+.blog-header {
+  font-size: 2.4rem !important;
+  text-decoration: none;
+  color: black;
+}
+
+.blog-header:hover {
+  font-size: 2.4rem !important;
+  text-decoration: none;
+  color: black;
+}
+
+/* ICONS ------------------------------------------------------------------------- */
+
+.icon-size {
+  font-size: 2rem;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+/* BLOG POSTS */
+
+.blog-post-title {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0.25rem;
+  font-size: 1.8rem !important;
+}
+
+.blog-post-meta {
+  margin-bottom: 0.25rem !important;
+  color: #727272;
+}
+
+.blog-post-text {
+  margin-bottom: 0.25rem !important;
+}
+
+/* LOGIN & SIGNUP ------------------------------------------------------------------------- */
+
+.signup-check,
+.login-check {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  color: red;
+}

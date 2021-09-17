@@ -1,0 +1,26 @@
+<!-- displaying Posts -->
+{{> post-info post}}
+
+<!-- only display "Add Comment" if logged in -->
+{{#if loggedIn}}
+  <div class="col-md-12">
+    <div class="row">
+      <ul class="list-unstyled">
+        <h3>Comment</h3>
+        <div class="mb-0">
+          <textarea class="comment-textarea form-control" rows="6"></textarea>
+        </div>
+      </ul>
+      <div>
+        <button type="button" id='add-comment-button' class="btn btn-success btn-lg add-comment-button">Add Comment</button>
+      </div>
+    </div>
+  </div>
+  <hr class="featurette-divider" />
+{{/if}}
+
+{{> comments post.comments}}
+
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}
