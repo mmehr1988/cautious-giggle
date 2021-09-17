@@ -1,7 +1,7 @@
 <div class='comments'>
   {{#each this}}
     <article>
-      <p class='blog-post-meta'>{{format_date created_at}} <span> by {{user.username}}</span></p>
+      <p class='blog-post-meta'> <span class='post-date'>{{format_date created_at}}</span> | <span> {{user.username}}</span></p>
       <p class='blog-post-text'>{{comment_text}}</p>
     </article>
     <hr class='featurette-divider' />

@@ -1,12 +1,23 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
 
+:root {
+  --blog-background: #f8f9fa;
+  --blog-header: #34421e;
+  --blog-post-title: #c19434;
+  --blog-post-text: #112031;
+  --blog-post-date: #112031;
+
+  --blog-post-username: #c19434;
+  --error-message: #cc0000;
+}
+
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: antiquewhite;
+  background-color: var(--blog-background);
   font-family: 'Kaisei Tokumin', serif;
 }
 
@@ -18,20 +29,7 @@ h1 {
 
 h3 {
   text-align: center;
-}
-
-/* Post Title Size ------------------------------------------------------------------------- */
-
-.display-4 {
-  font-size: 1.8rem !important;
-}
-
-.display-5 {
-  font-size: 1.4rem !important;
-}
-
-.display-6 {
-  font-size: 1rem !important;
+  color: var(--blog-post-text);
 }
 
 /* Home Page ------------------------------------------------------------------------- */
@@ -39,13 +37,13 @@ h3 {
 .blog-header {
   font-size: 2.4rem !important;
   text-decoration: none;
-  color: black;
+  color: var(--blog-header);
 }
 
 .blog-header:hover {
   font-size: 2.4rem !important;
   text-decoration: none;
-  color: black;
+  color: var(--blog-header);
 }
 
 /* ICONS ------------------------------------------------------------------------- */
@@ -63,25 +61,39 @@ h3 {
 
 .blog-post-title {
   text-decoration: none;
-  color: black;
+  color: var(--blog-post-title);
   margin-bottom: 0.25rem;
   font-size: 1.8rem !important;
 }
 
 .blog-post-meta {
   margin-bottom: 0.25rem !important;
-  color: #727272;
+  color: var(--dark-blue);
 }
 
 .blog-post-text {
   margin-bottom: 0.25rem !important;
   /* To preserve white space  */
   white-space: pre-line;
+  color: var(--blog-post-text);
 }
 
 .comment-textarea,
 .blog-post-text {
   line-height: 1.6rem;
+  color: var(--blog-post-text);
+}
+
+.comment-textarea {
+  color: var(--blog-post-comments);
+}
+
+.post-date {
+  color: var(--blog-post-date);
+}
+
+.username {
+  color: var(--blog-post-username);
 }
 
 /* LOGIN & SIGNUP ------------------------------------------------------------------------- */
@@ -91,5 +103,9 @@ h3 {
   text-align: center;
   padding-bottom: 1rem;
   font-size: 1.2rem;
-  color: red;
+  color: var(--error-message);
+}
+
+span.italics {
+  font-style: italic;
 }

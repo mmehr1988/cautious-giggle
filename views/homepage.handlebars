@@ -2,7 +2,7 @@
 {{#each posts as |post|}}
     <article>
     <a href='/post/{{id}}' class='blog-post-title'>{{title}}</a>
-    <p class='blog-post-meta'>{{format_date created_at}} <span> by {{user.username}}</span> | <a href='/post/{{id}}'>{{comments.length}} {{format_plural 'comment' comments.length}}</a></p>
+    <p class='blog-post-meta'>{{format_date created_at}} | <span class="username"> {{user.username}}</span> | <a href='/post/{{id}}'>{{comments.length}} {{format_plural 'comment' comments.length}}</a></p>
     <p class='blog-post-text'>{{preview_post post_content}}</p>
     </article>
     <hr class="featurette-divider" />

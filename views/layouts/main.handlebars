@@ -18,38 +18,38 @@
         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
           {{#if loggedIn}}
           <li>
-            <a href="/" class="nav-link text-secondary pb-0">
+            <a href="/" class="nav-link nav-home text-secondary pb-0">
               <ion-icon class="bi d-block mx-auto icon-size" name="home-outline"></ion-icon>
               Home
             </a>
           </li>
           <li>
-            <a href="/dashboard" class="nav-link text-dark pb-0">
+            <a href="/dashboard" class="nav-link nav-dashboard text-secondary pb-0">
               <ion-icon class="bi d-block mx-auto icon-size" name="speedometer-outline"></ion-icon>
               Dashboard
             </a>
           </li>
           <li>
-            <a href="/dashboard/create/" class="nav-link text-dark pb-0">
+            <a href="/dashboard/create/" class="nav-link nav-create text-secondary pb-0">
               <ion-icon class="bi d-block mx-auto icon-size" name="create-outline"></ion-icon>
               Create
             </a>
           </li>          
           <li>
-            <a href="/login" id="logout-button" class="nav-link text-dark pb-0">
+            <a href="/login"  id="logout-button" class="nav-link text-secondary pb-0">
               <ion-icon class="bi d-block mx-auto icon-size" name="log-out-outline"></ion-icon>
               Logout
             </a>
           </li>
           {{else}}
           <li>
-            <a href="/" class="nav-link text-secondary pb-0">
+            <a href="/" class="nav-link nav-home text-secondary pb-0">
               <ion-icon class="bi d-block mx-auto icon-size" name="home-outline"></ion-icon>
               Home
             </a>
           </li>
           <li>
-            <a href="/login" class="nav-link text-dark pb-0">
+            <a href="/login" class="nav-link nav-login text-secondary pb-0">
               <ion-icon class="bi d-block mx-auto icon-size" name="log-in-outline"></ion-icon>
               Login
             </a>
@@ -69,8 +69,10 @@
     <!-- ION ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.1/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@5.5.1/dist/ionicons/ionicons.js"></script>
+    <script src="/javascript/navigation.js"></script>
     {{#if loggedIn}}
     <script src="/javascript/logout.js"></script>
     {{/if}}
+    
 </body>
 </html>

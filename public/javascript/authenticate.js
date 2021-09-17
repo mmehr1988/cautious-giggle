@@ -23,7 +23,7 @@ const hideMessage = async (data) => {
     } else if (data === 'login') {
       userLoginCheck.innerHTML = '';
     }
-  }, 4000);
+  }, 1500);
 };
 
 const showMessage = async (data, message) => {
@@ -146,8 +146,15 @@ const loginFormHandler = async (event) => {
 /////////////////////////////////////////////////////////////////
 // EVENT LISTENERS
 /////////////////////////////////////////////////////////////////
+
 if (window.location.pathname === '/login') {
   signInBtn.addEventListener('click', loginFormHandler);
+  document.addEventListener('keyup', function (event) {
+    const enterKey = event.key === 'Enter' ? signInBtn.click() : '';
+  });
 } else if (window.location.pathname === '/signup') {
   signupBtn.addEventListener('click', signupFormHandler);
+  document.addEventListener('keyup', function (event) {
+    const enterKey = event.key === 'Enter' ? signupBtn.click() : '';
+  });
 }
