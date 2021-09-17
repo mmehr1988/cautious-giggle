@@ -18,4 +18,7 @@ module.exports = {
 
     return word;
   },
+  preview_post: (str) => {
+    return str.split(' ').slice(0, 60).join(' ') + '...';
+  },
 };

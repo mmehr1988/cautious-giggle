@@ -75,6 +75,13 @@ h3 {
 
 .blog-post-text {
   margin-bottom: 0.25rem !important;
+  /* To preserve white space  */
+  white-space: pre-line;
+}
+
+.comment-textarea,
+.blog-post-text {
+  line-height: 1.6rem;
 }
 
 /* LOGIN & SIGNUP ------------------------------------------------------------------------- */
