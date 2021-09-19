@@ -1,13 +1,11 @@
 
-{{#if posts.length}}
-    </div>
-    {{#each posts as |post|}}
-        {{> post-info post}}
-        <a href="/dashboard/edit/{{post.id}}"><button type='button' id='edit-post-button' class='btn btn-warning btn-lg'>Edit</button></a>
-        </div>
-    {{/each}}
-{{else}}
-<h4>Currently you have no posts...</h4>
-{{/if}}
+      {{#if posts.length}}
+      <div>
+        {{#each posts as |post|}} {{> post-info post}}
+        <a href="/dashboard/edit/{{post.id}}"><button type="button" id="edit-post-button" class="btn btn-warning btn-lg">Edit</button></a>
+      </div>
+      {{/each}} {{else}}
+      <h4>Currently you have no posts...</h4>
+      {{/if}}
 
 

@@ -57,7 +57,19 @@ h3 {
   fill: currentColor;
 }
 
+.logo-github {
+  color: #4078c0;
+}
+
+.logo-linkedin {
+  color: #006192;
+}
+
 /* BLOG POSTS */
+
+.featurette-divider:last-child {
+  background-color: var(--blog-background);
+}
 
 .blog-post-title {
   text-decoration: none;
