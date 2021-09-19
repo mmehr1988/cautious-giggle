@@ -23,6 +23,8 @@ exports.getAllPosts = catchAsync(async (req, res, next) => {
         attributes: ['username'],
       },
     ],
+    // ORDER POSTS BASED ON CREATE DATE
+    order: [['created_at', 'DESC']],
   });
 
   const posts = dbGetAllPosts.map((post) => post.get({ plain: true }));
