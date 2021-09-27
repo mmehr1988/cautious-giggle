@@ -17,7 +17,7 @@
 
 ## Description
 
-A CMS-style blog site that allows developers to publish and comment on blog posts. More specifically, this app follows the MVC (model, view, controller) paradigm for the architectural structure, Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+A CMS-style blog site that allows developers to publish and comment on blog posts. More specifically, this app follows the MVC (model, view, controller) paradigm for the architectural structure, Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. To view the final app deployed on Heroku, please click on the following [link](https://powerful-everglades-74449.herokuapp.com/).
 
 ## Technologies
 
