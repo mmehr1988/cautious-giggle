@@ -55,7 +55,7 @@ A CMS-style blog site that allows developers to publish and comment on blog post
 
 ## Installation
 
-- Before cloning the repository, please ensure you have node.js installed as this is a command line application. If you do not have node.js installed, start with steps 1 and 2. If you have node.js installed and confirmed, you can skip steps 1 and 2 and begin on step 3.
+- Before cloning the repository, please ensure you have node.js installed as this app requires the installing of npm packages. If you do not have node.js installed, start with steps 1 and 2. If you have node.js installed and confirmed, you can skip steps 1 and 2 and begin on step 3.
 
   1.  [Node.js Download Page](https://nodejs.org/en/download/)
 
