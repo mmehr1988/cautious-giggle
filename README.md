@@ -23,25 +23,25 @@ A CMS-style blog site that allows developers to publish and comment on blog post
 
 1. [Node.js](https://www.npmjs.com/package/inquirer) Packages
 
-   e. [bcrypt](https://www.npmjs.com/package/bcrypt)
+   a. [bcrypt](https://www.npmjs.com/package/bcrypt)
 
-   e. [connection-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)
+   b. [connection-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)
 
-   e. [dotenv](https://www.npmjs.com/package/dotenv)
+   c. [dotenv](https://www.npmjs.com/package/dotenv)
 
    d. [express](https://www.npmjs.com/package/express)
 
-   d. [express-handlebars](https://www.npmjs.com/package/express-handlebars)
+   e. [express-handlebars](https://www.npmjs.com/package/express-handlebars)
 
-   d. [express-session](https://www.npmjs.com/package/express-session)
+   f. [express-session](https://www.npmjs.com/package/express-session)
 
-   d. [morgan](https://www.npmjs.com/package/morgan)
+   g. [morgan](https://www.npmjs.com/package/morgan)
 
-   b. [mysql2](https://www.npmjs.com/package/mysql2)
+   h. [mysql2](https://www.npmjs.com/package/mysql2)
 
-   d. [nodemon](https://www.npmjs.com/package/nodemon)
+   i. [nodemon](https://www.npmjs.com/package/nodemon)
 
-   c. [sequelize](https://www.npmjs.com/package/sequelize)
+   j. [sequelize](https://www.npmjs.com/package/sequelize)
 
 2. CSS Framework
 
